@@ -17,7 +17,20 @@ $(document).ready(function(){
       $("#ruby").hide();
       $("#python").hide();
       $("#go").show();
+    }else if(item === "ruby" && day === "zoo" || day === "greenLight" && monster === "medusa" || monster === "dio"){
+      $("#ruby").show();
+      $("#python").hide();
+      $("#go").hide();
+    }else if(item === "ruby" && day === "mining" && monster === "rock"){
+      $("#ruby").show();
+      $("#python").hide();
+      $("#go").hide();
+    }else if(item === "snake" || item === "game" && day === "mining" && monster === "medusa" || monster === "dio"){
+      $("#ruby").show();
+      $("#python").hide();
+      $("#go").hide();
     }
+
 
 
 
