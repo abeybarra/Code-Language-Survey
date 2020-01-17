@@ -2,7 +2,7 @@
 
 ## AKA "Code Survey"
 
-### My Second independant project at Epicodus
+### My Second independent project at Epicodus
 Created January 17th, 2020
 ### By Abraham Ybarra III
 
