@@ -5,11 +5,11 @@ $(document).ready(function(){
     var monster =$("input:radio[name=monsters]:checked").val();
     var swallow =$("input:radio[name=swallows]:checked").val
 
-    if(item === "red" && ){
+    if(item === "ruby" && day === "mining" && monster === "medusa" || monster === "dio"){
       $("#ruby").show();
       $("#python").hide();
       $("#go").hide();
-    }else if(item === "slithering"){
+    }else if(item === "snake"){
       $("#ruby").hide();
       $("#python").show();
       $("#go").hide();
@@ -27,3 +27,5 @@ $(document).ready(function(){
     event.preventDefault();
   });
 });
+
+//(equals)===  (or)||  (and)&&   (not)!
