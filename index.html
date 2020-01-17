@@ -14,28 +14,42 @@
       <label>Which of these items sounds most appealing</label>
       <div class="radio">
         <label>
-          <input type="radio" name="items" value="Red" checked>
-          A shiny ruby
+          <input type="radio" name="items" value="red" checked>
+          A shiny red ruby
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="items" value="Green">
+          <input type="radio" name="items" value="slithering">
           A slithering snake
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="items" value="Rust">
+          <input type="radio" name="items" value="rusty">
           A rusty old pickup truck
         </label>
       </div>
-      <label for="favoriteDay">What's your favorite kind of day?</label>
-      <select id="day" class="form-control">
-        <option>Visiting the reptile exhibit at the local zoo.</option>
-        <option>Hitting nothing but green lights on your drive to work.</option>
-        <option>Mining for exotic gems and minerals.</option>
-      </select>
+      <form id="dayInput">
+        <label>Which of these days sounds most appealing</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="days" value="zoo" checked>
+            Visiting the reptile house at your local zoo.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="days" value="greenLight">
+            Hitting all green lights on your drive to work.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="days" value="mining">
+            Mining for gems and minerals in your backyard.
+          </label>
+        </div>
       <input type="submit">
     </form>
     <div id="ruby">
