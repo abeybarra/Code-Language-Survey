@@ -9,11 +9,11 @@ $(document).ready(function(){
       $("#ruby").show();
       $("#python").hide();
       $("#go").hide();
-    }else if(item === "snake"){
+    }else if(item === "snake" && day === "zoo" && monster === "rock" || monster === "dio"){
       $("#ruby").hide();
       $("#python").show();
       $("#go").hide();
-    }else if(item === "game"){
+    }else if(item === "game" && day === "greenLight" && monster === "rock" || monster === "medusa"){
       $("#ruby").hide();
       $("#python").hide();
       $("#go").show();
