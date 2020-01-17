@@ -9,27 +9,28 @@
 </head>
 <body>
   <div class="container">
-    <h1>Which coding language is right for you?</h1>
-    <form id="gemInput">
-      <label>Which of these items sounds most appealing</label>
-      <div class="radio">
-        <label>
-          <input type="radio" name="items" value="red" checked>
-          A shiny red ruby
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="items" value="slithering">
-          A slithering snake
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="items" value="rusty">
-          A rusty old pickup truck
-        </label>
-      </div>
+    <div class="panel">
+      <h1>Which coding language is right for you?</h1>
+      <form id="formInput">
+        <label>Which of these items sounds most appealing</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="items" value="red" checked>
+            A shiny red ruby.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="items" value="slithering">
+            A slithering snake.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="items" value="game">
+            A Chinese board game.
+          </label>
+        </div>
       <form id="dayInput">
         <label>Which of these days sounds most appealing</label>
         <div class="radio">
@@ -50,21 +51,46 @@
             Mining for gems and minerals in your backyard.
           </label>
         </div>
-      <input type="submit">
-    </form>
-    <div id="ruby">
-      <h2>Ruby</h2>
-      <p>Ruby seems like a good fit for you</p>
+        <form id="monsterInput">
+          <label>Which monster is the scariest</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="monster" value="rock" checked>
+              A giant made of stone.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="monster" value="medusa">
+              Medusa from Greek mythology.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="monster" value="dio">
+              An evil being capable of stopping time.
+            </label>
+          </div>
+        <input type="submit">
+      </form>
     </div>
-    <div id="python">
-      <h2>Python</h2>
-      <p>Python seems like a good fit for you</p>
+    <div class="panel">
+      <div id="ruby">
+        <h2>Ruby</h2>
+        <p>Ruby seems like a good fit for you</p>
+        <img id="rubyImage" src="img/Ruby.png" alt="Ruby Logo">
+      </div>
+      <div id="python">
+        <h2>Python</h2>
+        <p>Python seems like a good fit for you</p>
+        <img id="pythonImage" src="img/Python.png" alt="Python Logo">
+      </div>
+      <div id="go">
+        <h2>Go</h2>
+        <p>Go seems like a good fit for you</p>
+        <img id="goImage" src="img/Go.png" alt="Go Logo">
+      </div>
     </div>
-    <div id="go">
-      <h2>Go</h2>
-      <p>Go seems like a good fit for you</p>
-    </div>
-    
   </div>
 </body>
 </html>

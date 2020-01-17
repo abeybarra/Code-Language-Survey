@@ -1,3 +1,23 @@
+/*ids*/
+
 #ruby, #python, #go {
   display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*classes*/
+
+.panel {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgb(184, 207, 228)
 }
