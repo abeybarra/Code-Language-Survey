@@ -4,7 +4,11 @@ $(document).ready(function(){
     var day = $("input:radio[name=days]:checked").val();
 
 
-    if(item ===)
+    if(item === "red"){
+      $("#ruby").show();
+      $("python").hide();
+      $("go").hide();
+    }
 
 
 
