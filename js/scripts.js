@@ -2,9 +2,10 @@ $(document).ready(function(){
   $("#formInput").submit(function(event){
     var item = $("input:radio[name=items]:checked").val();
     var day = $("input:radio[name=days]:checked").val();
+    var monster =$("input:radio[name=monsters]:checked").val();
+    var swallow =$("input:radio[name=swallows]:checked").val
 
-
-    if(item === "red"){
+    if(item === "red" && ){
       $("#ruby").show();
       $("#python").hide();
       $("#go").hide();
