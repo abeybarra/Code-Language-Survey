@@ -1,7 +1,8 @@
 /*ids*/
 
-#ruby, #python, #go {
+#ruby, #python, #go, #unknown {
   display: none;
+
 }
 
 #rubyImage, #pythonImage, #goImage {
@@ -9,9 +10,20 @@
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 
 /*classes*/
+
+.jumbotron {
+  background-color: rgb(184, 207, 228);
+  background-size: cover;
+  border: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+
+}
 
 .panel {
   width: 40%;
@@ -20,4 +32,12 @@
   border: 2px solid black;
   padding: 20px;
   background-color: rgb(184, 207, 228)
+
+}
+
+/*html*/
+
+body {
+  background-color: rgb(135, 169, 201);
+
 }
