@@ -7,12 +7,12 @@
 
 }
 
-#ruby, #python, #go, #unknown {
+#ruby, #python, #go, #unknown, #dontKnow {
   display: none;
 
 }
 
-#rubyImage, #pythonImage, #goImage {
+#rubyImage, #pythonImage, #goImage, #dontKnowImage {
   width: 100%;
   height: auto;
   margin-top: 20px;

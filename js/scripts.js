@@ -20,12 +20,32 @@ $(document).ready(function(){
       $("#python").hide();
       $("#go").show();
 
+    }else if(item === "game" && day === "zoo" && monster === "dio"){
+      $("#ruby").hide();
+      $("#python").hide();
+      $("#go").show();
+
+    }else if(item === "ruby" && day === "zoo" && monster === "rock"){
+      $("#ruby").show();
+      $("#python").hide();
+      $("#go").hide();
+      
+    }else if(item === "snake" && day === "greenLight" && monster === "medusa"){
+      $("#ruby").hide();
+      $("#python").show();
+      $("#go").hide();
+
+    }else if(item === "snake" && day === "mining" && monster === "medusa"){
+      $("#ruby").hide();
+      $("#python").show();
+      $("#go").hide();
+
     }else {
       $("#unknown").show();
       $("#ruby").hide();
       $("#python").hide();
       $("#go").hide();
-
+      $("#dontKnowImage").hide();
     }
 
     
