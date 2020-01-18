@@ -40,6 +40,11 @@ $(document).ready(function(){
       $("#python").show();
       $("#go").hide();
 
+    }else if(item === "ruby" && day === "mining" && monster === "medusa"){
+      $("#ruby").show();
+      $("#python").show();
+      $("#go").hide();
+
     }else {
       $("#unknown").show();
       $("#ruby").hide();
@@ -47,14 +52,6 @@ $(document).ready(function(){
       $("#go").hide();
       $("#dontKnowImage").hide();
     }
-
-    
-
-
-
-
-
-
 
     event.preventDefault();
   });
